@@ -1,0 +1,159 @@
+body {
+font-family: 'Poppins', sans-serif;
+color: #8F95A5;
+font-size: 20px;
+background-color: #FFF;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+address {
+    font-style: normal;
+}
+.section-title{
+color: #000;
+font-size: 48px;
+font-weight: 600;
+line-height: normal;
+}
+
+/* header */
+.logo {
+color: #000;
+font-size: 36px;
+line-height: normal;
+}
+.logo-part {
+    color: #939393;
+}
+
+.nav-link {
+color: #263238;
+font-weight: 500;
+line-height: normal;
+}
+.current {
+    color: tomato;
+    text-decoration: underline;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: tomato;
+    text-decoration: underline;
+}
+
+
+.header-btn {
+color: #000;
+font-size: 20px;
+line-height: normal;
+letter-spacing: 0.6px;
+cursor: pointer;
+background-color: transparent;
+}
+.header-btn:hover,
+.header-btn:focus {
+    color: #FFF;
+    background-color: tomato;
+}
+/* hero */
+.hero-title {
+color: #000;
+font-size: 64px;
+font-weight: 600;
+line-height: 1.25; 
+}
+.hero-desk {
+font-size: 24px;
+}
+.hero-btn {
+color: #FFF;
+font-size: 36px;
+line-height: normal;
+letter-spacing: 1.08px;
+cursor: pointer;
+background-color: #263238;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #263238;
+    background-color: #FFF;
+}
+/* skills */
+
+.skills-subtitle {
+color: #263238;
+font-size: 30px;
+font-weight: 600;
+line-height: normal;
+}
+.skills-desc {
+    font-size: 16px;
+}
+.skills-btn {
+color: #FFF;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+border-radius: 10px;
+background: #263238;
+cursor: pointer;
+}
+.skills-btn:hover,
+.skills-btn:focus {
+    background-color: #939393;
+}
+
+/* about */
+
+.about-num {
+color: #2A3246;
+font-size: 48px;
+font-weight: 600;
+line-height: normal;
+}
+
+/* pricing */
+.pricing-subtitle {
+color: #263238;
+font-size: 30px;
+font-weight: 600;
+line-height: 1.6; 
+text-transform: capitalize;
+}
+
+.pricing-sum {
+color: #263238;
+font-size: 24px;
+line-height: normal;
+}
+.pricing-desc {
+color: #546269;
+font-size: 18px;
+line-height: normal;
+}
+/* contact */
+
+.form-btn {
+color: #FFF;
+font-size: 20px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.6px;
+cursor: pointer;
+background-color: #263238;
+border-radius: 10px;
+}
+.form-btn:hover,
+.form-btn:focus {
+    background-color: #8F95A5;
+}
+/* footer */
+.footer-link {
+color: #8F95A5;
+font-size: 24px;
+letter-spacing: 0.48px;
+}
